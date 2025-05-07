@@ -1,0 +1,154 @@
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh; /* La altura del hero ocupará toda la ventana */
+  background-image: url('../src/assets/fondopaginaprincipal.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Capa oscura para mejorar la visibilidad del texto */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2; /* Asegura que el texto esté por encima de la superposición */
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.boton-cta {
+  background-color: #66bb6a;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.boton-cta:hover {
+  background-color: #388e3c;
+}
+
+/* Productos Section */
+.productos {
+  padding: 50px 20px;
+  background-color: #f5f5f5;
+}
+
+.productos-titulo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.productos-titulo h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.productos-lista {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.producto {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.producto h3 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.producto p {
+  color: #555;
+}
+
+.precio {
+  font-size: 1.2rem;
+  color: #66bb6a;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Contacto Section */
+.contacto {
+  background-color: #fafafa;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contacto-contenido h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.contacto-contenido p {
+  color: #666;
+  margin-top: 20px;
+}
+
+.boton-cta {
+  background-color: #66bb6a;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.boton-cta:hover {
+  background-color: #388e3c;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
